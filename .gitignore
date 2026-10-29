@@ -1,0 +1,25 @@
+# ---- 编译产物（这些不该上传，别人 clone 下来自己编译）----
+# Mac 上的可执行文件没有后缀（不是 .exe），只能按名字排除
+happy
+happy_wedding
+w1
+w2
+w3
+s1
+s2
+s3
+s3b
+s4
+s5
+s6
+dump
+
+# clang 加 -g 时生成的调试符号目录
+*.dSYM/
+
+# 其他常见的编译垃圾
+a.out
+*.o
+
+# ---- macOS 系统文件 ----
+.DS_Store
